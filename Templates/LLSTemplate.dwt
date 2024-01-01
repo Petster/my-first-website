@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>LLS Light the Night</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/lls.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+<style type="text/css">
+a:link {
+	color: #323E58;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FF0004;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FCB913;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+</style>
+<script type="text/javascript">
+if (screen.width <=699)
+{document.location="mobile/index.html";}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../images/facebook2.gif','../images/twitter2.gif','../images/instagram2.gif','../images/youtube2.gif','../images/pinterest2.gif','../images/linkedin2.gif','../images/blog2.gif')">
+<div class="container">
+	<div class="header">
+    <img src="../images/header.jpg" width="980" height="157" alt="LLS Light the Night Banner"/> </div>
+	<!-- TemplateBeginEditable name="navArea" -->
+	<div class="navigation">
+	  <ul class="navul">
+	    <li class="navitem"><a href="../index.html"><img src="../images/home.png" width="200" height="70" alt="Home"/> </a></li>
+	    <li class="navitem"><a href="../aboutus.html"><img src="../images/aboutus.png" width="200" height="70" alt="About Us"/></a></li>
+	    <li class="navitem"><a href="../thewalk.html"><img src="../images/thewalk.png" width="200" height="70" alt="The Walk"/></a></li>
+	    <li class="navitem"><a href="../donate.html"><img src="../images/donate.png" width="200" height="70" alt="Donate"/></a></li>
+	    <li class="navitem"><a href="../contact.html"><img src="../images/contact-us.png" width="200" height="70" alt="Contact"/></a></li>
+	    <li class="navitem"><a href="../signup.html"><img src="../images/signup.png" width="200" height="70" alt="Sign Up"/></a></li>
+      </ul>
+    </div>
+	<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="contentArea" -->
+	<div class="content">
+	  <p>Insert Content Here.</p>
+	</div>
+	<!-- TemplateEndEditable -->
+	<div class="footer">
+		<p id="followus">Follow Us:<br>
+        <ul class="footer-ul">
+        <li class="footer-social"><a href="https://www.facebook.com/lightthenightlls" target="_blank"><img src="../images/facebook.gif" alt="facebook" width="35" height="35" id="Image1" onMouseOver="MM_swapImage('Image1','','../images/facebook2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+        <li class="footer-social"><a href="http://twitter.com/lightthenight" target="_blank"><img src="../images/twitter.gif" alt="twitter" width="35" height="35" id="Image2" onMouseOver="MM_swapImage('Image2','','../images/twitter2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+        <li class="footer-social"><a href="https://instagram.com/leukemialymphomasociety/" target="_blank"><img src="../images/instagram.gif" alt="instagram" width="35" height="35" id="Image3" onMouseOver="MM_swapImage('Image3','','../images/instagram2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+        <li class="footer-social"><a href="http://www.youtube.com/user/LeukemiaLymphomaSoc" target="_blank"><img src="../images/youtube.gif" alt="youtube" width="35" height="35" id="Image4" onMouseOver="MM_swapImage('Image4','','../images/youtube2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+        <li class="footer-social"><a href="http://www.pinterest.com/llsorg/" target="_blank"><img src="../images/pinterest.gif" alt="pinterest" width="35" height="35" id="Image5" onMouseOver="MM_swapImage('Image5','','../images/pinterest2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+        <li class="footer-social"><a href="https://www.linkedin.com/company/the-leukemia-&-lymphoma-society" target="_blank"><img src="../images/linkedin.gif" alt="linkdin" width="35" height="35" id="Image6" onMouseOver="MM_swapImage('Image6','','../images/linkedin2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+        <li class="footer-social"><a href="http://www.lls.org/blog/" target="_blank"><img src="../images/blog.gif" alt="blog" width="35" height="35" id="Image7" onMouseOver="MM_swapImage('Image7','','../images/blog2.gif',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+        </ul>
+    </p>
+    <p>Website designed by Jason Palmeri</p>
+  </div>
+</div> 
+</body>
+</html>
